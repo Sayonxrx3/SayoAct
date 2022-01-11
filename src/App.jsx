@@ -1,10 +1,11 @@
+import BaseTitle from './components/BaseTitle'
 import './index.css'
 
 export default function App() {
   return (
     <>
       <div className='grid items-center justify-center w-auto grid-cols-3 p-5 h-11 '>
-        <h3>HTML + TailwindCSS</h3>
+        <BaseTitle text='HTML + TailwindCSS'></BaseTitle>
 
         <input
           id='Outlined'
