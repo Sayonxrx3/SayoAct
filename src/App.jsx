@@ -2,7 +2,7 @@ import './index.css'
 
 export default function App() {
   return (
-    <div>
+    <>
       <div className='grid items-center justify-center w-auto grid-cols-3 p-5 h-11 '>
         <h3>HTML + TailwindCSS</h3>
 
@@ -50,6 +50,6 @@ export default function App() {
 
         <div className='grid grid-flow-row grid-cols-2 gap-5 p-5 m-3 border-2 '></div>
       </div>
-    </div>
+    </>
   )
 }
